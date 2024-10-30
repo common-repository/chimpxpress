@@ -1,0 +1,396 @@
+#CXwrap {
+    padding-right: 55px;
+    padding-left: 10px;
+    margin-bottom: 1em;
+}
+#CXwrap #wp_chimpxpress th,
+#CXwrap #wp_chimpxpress td {
+    vertical-align: top;
+}
+#CXwrap #mc_ping,
+#CXwrap #mc_status {
+    position: relative;
+    top: 1px;
+}
+#CXwrap .chimpxpress_help {
+    margin: 0 10px;
+}
+
+#CXwrap .componentHeading {
+    display: inline-block;
+    background: url(../images/logo_32.png) no-repeat left 8px;
+    padding-left: 40px !important;
+}
+#CXwrap #loggedInStatus,
+#CXwrap #dashboardButton {
+    float: right;
+    padding: 25px 0 0;
+    font-size:0.8em;
+}
+#CXwrap #loggedInStatus a,
+#CXwrap #loggedInStatus a:hover {
+    color: #333333;
+}
+
+#CXwrap h3 {
+    color:#464646;
+    font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+    font-size:1.5em;
+    font-style:italic;
+    font-weight:normal;
+    margin:0;
+}
+#CXwrap h4 {
+    color:#464646;
+    font-size:1.2em;
+    font-weight:normal;
+    margin:0;
+}
+#CXwrap h5 {
+    color:#464646;
+    font-size:1.2em;
+    font-weight:normal;
+    margin:0;
+}
+
+#CXwrap hr {
+    border: 1px solid #E3E3E3;
+    border-width: 1px 0 0 0;
+    color: #F1F1F1;
+}
+#CXwrap label {
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 0 3px 3px;
+}
+
+#CXwrap .mainOptionContainer {
+    margin: 2em 0;
+}
+#CXwrap .mainOption {
+    display: inline-block;
+    float: left;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    width: 340px;
+    height: 175px;
+    padding: 10px 20px;
+    margin:  0 0 1em 0;
+    text-align: center;
+}
+#CXwrap .mainOption:first-of-type {
+    margin-right: 30px;
+}
+#CXwrap .mainOption h3 {
+    margin: 10px 0;
+}
+#CXwrap .mainOption hr {
+    border-color: #BFBFBF;
+}
+#CXwrap .mainOption .mainText {
+    height: 60px;
+    margin: 25px 0 0;
+}
+#CXwrap .mainOption .button-primary {
+    padding: 0px 25px 3px 25px;
+    text-align: center;
+}
+
+.CX_left {
+    float: left;
+}
+.CX_right {
+    float: right;
+}
+.clr {
+    clear: both;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#CXwrap #preloaderContainer {
+    width: 100%;
+    height: 75px;
+    text-align: center;
+}
+#CXwrap #preloaderContainer #preloader {
+    background: url("../images/loader_32.gif") no-repeat scroll left 0 transparent;
+    display: block;
+    height: 32px;
+    margin: 50px auto;
+    padding: 6px 0 0 45px;
+    text-align: left;
+    vertical-align: middle;
+    width: 400px;
+}
+
+
+#CXwrap #tName {
+    width: 100%;
+    text-align: center;
+}
+#CXwrap #stepsContainer {
+    margin:auto auto 15px;
+    text-align:center;
+    width:100%;
+    min-height: 100px;
+}
+#CXwrap #stepsTemplateSections {
+    display: inline;
+}
+#CXwrap .prevNext {
+    display:inline-block;
+    width: 21px;
+    height: 22px;
+    position:relative;
+    top:-12px;
+    margin: 0 10px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+#CXwrap .prevNext a {
+    display:inline-block;
+    text-indent: -5000px;
+    width: 21px;
+    height: 22px;
+    cursor: pointer;
+}
+#CXwrap #prevStep {
+    background: url(../images/arrow-left.gif) no-repeat 0 0;
+}
+#CXwrap #nextStep {
+    background: url(../images/arrow-right.gif) no-repeat 0 0;
+}
+#CXwrap #next,
+#CXwrap .next {
+    margin-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#CXwrap .step {
+    margin-right: 0;
+    text-align:center;
+    display:inline-block;
+    position: relative;
+    top: 28px;
+    height: 75px;
+}
+#CXwrap .step a,
+#CXwrap .step a:hover,
+#CXwrap .step a:active,
+#CXwrap .step a:focus {
+    color:#FFFFFF;
+    text-decoration:none;
+    display:inline-block;
+    width: 40px;
+    height:30px;
+    padding:10px 0 0;
+    position:relative;
+    top: -10px;
+}
+#CXwrap .activeStep a {
+    background:none repeat scroll 0 0 #8F8F8F;
+    border: 0px solid #8F8F8F;
+    color:#FFFFFF;
+    font-size:14px;
+    font-weight:bold;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    padding:10px 0 0;
+}
+#CXwrap .inactiveStep a {
+    background:none repeat scroll 0 0 #BFBFBF;
+    border: 0px solid #BFBFBF;
+    color:#FFFFFF;
+    font-size:14px;
+    font-weight:bold;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    padding:10px 0 0;
+}
+
+
+
+#CXwrap .stepSubTitle {
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+#CXwrap .activeStep .stepSubTitle {
+    color: #333333;
+}
+#CXwrap .inactiveStep .stepSubTitle {
+    color: #7F7F7F;
+}
+#CXwrap .bgLine {
+    background:none repeat scroll 0 0 #CFCFCF;
+    display:inline-block;
+    height:2px;
+    margin:0 -20px;
+    position: relative;
+    top:-15px;
+    width:100px;
+    z-index:-1;
+}
+
+#CXwrap #ajaxLoader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 1000;
+    display: none;
+
+    opacity: 0.75;
+    opacity: 0.75;
+    -webkit-opacity: 0.75;
+    -moz-opacity: 0.75;
+    filter: alpha(opacity=75);
+}
+
+#CX_template,
+#CX_listId,
+#CX_cid {
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+#CX_template {
+    float: left;
+}
+
+#CX_preview {
+    margin-right: 15px;
+}
+#CX_sectionsText {
+    position: relative;
+    top: 6px;
+}
+
+#CX_previewIframe {
+    border: 1px solid #bfbfbf;
+    height: 800px;
+    width: 100%;
+}
+
+
+#CXwrap #monkey-ruler {
+    background: url(../images/ruler-centered.png) no-repeat scroll center bottom transparent;
+    height: 58px;
+    position: relative;
+    width: 100.2%;
+}
+#CXwrap #monkey-ruler p {
+    background: url(../images/ruler-arm.png) repeat scroll right top transparent;
+    display: block;
+    height: 30px;
+    margin: 0;
+    padding: 16px 0 0;
+    text-align: center;
+}
+#CXwrap #monkeyhead.scream {
+    background-position: right center;
+}
+#CXwrap #monkeyhead {
+    background: url(../images/ruler-head.png) repeat scroll 0 0 transparent;
+    display: block;
+    height: 46px;
+    left: 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    width: 60px;
+}
+
+#CXwrap #chimpxpressCompose input.inputWide {
+    width: 100%;
+}
+
+#CXwrap #sectionTitleWrapper {
+    color:#464646;
+    font-size:1.5em;
+    font-weight:normal;
+    margin: 0 0 0.5em 0;
+}
+#CXwrap .sectionTitle {
+    text-transform: capitalize;
+}
+#CXwrap .grey {
+    color: #7F7F7F !important;
+}
+#CXwrap .bold {
+    font-weight: bold;
+}
+
+
+#CXwrap .postarea #editor-toolbar {
+    height: 30px;
+}
+#CXwrap .postarea #edButtonPreview,
+#CXwrap .postarea #edButtonHTML {
+    background-color:#f1f1f1;
+    border-color:#dfdfdf;
+    color:#999;
+}
+.postarea #editor-toolbar .active {
+    background-color: #E9E9E9;
+    border-bottom-color: #E9E9E9;
+    color: #333333;
+}
+#CXwrap .postarea #editorcontainer textarea {
+    margin: 0;
+    width: 100%;
+}
+
+
+#CXwrap #insertPost {
+    margin: 1em 0 3em 0;
+}
+#CXwrap #posts {
+    min-width: 250px;
+}
+
+#CXwrap .ul {
+    list-style-type: disc;
+    padding: 0 0 0 40px;
+    margin: 0 0 2em;
+}
+#CXwrap .ul li {
+    padding: 5px 0;
+}
+
+#CXwrap #gotoArchive {
+    float: right;
+}
+
+#CXwrap #archive thead {
+    line-height: 1.5em;
+    font-size: 2em;
+    font-weight: bold;
+}
+#CXwrap #archive tbody {
+    line-height: 2em;
+}
+
+
+#CXfooter {
+    width: 100%;
+    text-align: right;
+    margin-top: 5em;
+    color: #BFBFBF;
+}
+#CXfooter a {
+    color: #BFBFBF;
+}

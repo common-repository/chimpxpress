@@ -1,0 +1,729 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: chimpXpress Spanish\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/trunk\n"
+"POT-Creation-Date: 2024-08-05T10:31:35+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: jelena kovacevic <jecajeca260@gmail.com>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. Plugin Name of the plugin
+#: chimpxpress.php
+msgid "chimpXpress"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: chimpxpress.php
+msgid "https://chimpxpress.com"
+msgstr ""
+
+#. Description of the plugin
+#: chimpxpress.php
+msgid ""
+"WordPress Mailchimp Integration - Create Mailchimp campaign drafts from "
+"within WordPress and include blog posts or import recent campaigns into "
+"WordPress to create blog posts or landing pages. Requires PHP7.4. If you're "
+"having trouble with the plugin visit our forums https://chimpxpress.com/"
+"support Thank you!"
+msgstr ""
+"Integración de Mailchimp con WordPress: crea borradores de campañas de "
+"Mailchimp desde WordPress e incluye publicaciones de blog o importa campañas "
+"recientes a WordPress para crear publicaciones de blog o páginas de destino. "
+"Requiere PHP7.4. Si tienes problemas con el complemento, visita nuestros "
+"foros https://chimpxpress.com/support ¡Gracias!"
+
+#. Author of the plugin
+#: chimpxpress.php
+msgid "freakedout"
+msgstr ""
+
+#. Author URI of the plugin
+#: chimpxpress.php
+msgid "https://www.freakedout.de"
+msgstr ""
+
+#: archive.php:40
+msgid "Please select a landing page from the list!"
+msgstr "¡Por favor, seleccione una página de destino de la lista!"
+
+#: archive.php:55
+msgid "Please select one or more landing pages from the list!"
+msgstr "¡Por favor, seleccione una o más páginas de destino de la lista!"
+
+#: archive.php:57
+msgid ""
+"Are you sure you want to delete the selected landing pages? There is no undo!"
+msgstr ""
+"¿Seguro que desea eliminar las páginas de destino seleccionados? ¡Está "
+"acción no se puede deshacer!"
+
+#: archive.php:83 compose.php:379 editLP.php:75 import.php:44 main.php:31
+msgid "Please connect your Mailchimp account!"
+msgstr "¡Por favor conecte su cuenta de Mailchimp!"
+
+#: archive.php:106 compose.php:394 editLP.php:98 import.php:66 main.php:54
+msgid ""
+"Direct file access not possible. Please enter valid ftp credentials in the "
+"configuration!"
+msgstr ""
+"El acceso directo a archivos no es posible. ¡Por favor, introduzca "
+"credenciales de FTP válidas en la configuración!"
+
+#: archive.php:114 chimpxpress.php:214 editLP.php:112 main.php:89
+msgid "Landing Page Archive"
+msgstr "Archivo de Página de Destino"
+
+#: archive.php:132
+msgid "Campaign Subject"
+msgstr "Asunto de la Campaña"
+
+#: archive.php:134
+msgid "created / modified"
+msgstr "creado/modificado"
+
+#: archive.php:164
+msgid "Edit"
+msgstr "Modificar"
+
+#: archive.php:167
+msgid "Delete"
+msgstr "Eliminar"
+
+#: archive.php:175
+msgid "No landing pages found!"
+msgstr "¡No hay página de destino seleccionada!"
+
+#: archive.php:180 chimpxpress.php:186 chimpxpress.php:854
+msgid "Dashboard"
+msgstr "Panel de Control"
+
+#: chimpxpress.php:196 chimpxpress.php:197 import.php:74 main.php:69
+msgid "Import"
+msgstr "Importar"
+
+#: chimpxpress.php:205 chimpxpress.php:206 compose.php:402 main.php:79
+msgid "Compose"
+msgstr "Componer"
+
+#: chimpxpress.php:215
+msgid "Landing Pages"
+msgstr "Páginas de Destino"
+
+#: chimpxpress.php:224 chimpxpress.php:225 editLP.php:106
+msgid "Edit Landing Page"
+msgstr "Modificar la Página de Destino"
+
+#: chimpxpress.php:233 chimpxpress.php:857
+msgid "Settings"
+msgstr "Ajustes"
+
+#: chimpxpress.php:366
+msgid "Invalid request!"
+msgstr "¡Solicitud no válida!"
+
+#: chimpxpress.php:398 chimpxpress.php:442 chimpxpress.php:541
+msgid "Campaign could not be retrieved. Please try again."
+msgstr "No se pudo recuperar la campaña. Inténtalo nuevamente."
+
+#: chimpxpress.php:522
+msgid ""
+"Page title must not be empty or consist exclusively of special characters!"
+msgstr ""
+"¡El título de la página no debe ser vacío o consiste exclusivamente en "
+"caracteres especiales!"
+
+#: chimpxpress.php:530
+msgid "A landing page with the supplied name already exists!"
+msgstr "¡Una página de destino con el nombre dado ya existe!"
+
+#: chimpxpress.php:530
+msgid "Click here to overwrite the existing landing page"
+msgstr "Haga clic aquí para sobrescribir la página de destino existente"
+
+#: chimpxpress.php:636 chimpxpress.php:1322
+msgid "open campaign in popup window"
+msgstr "abrir campaña en una ventana emergente"
+
+#: chimpxpress.php:726 chimpxpress.php:732 chimpxpress.php:738
+msgid "Invalid ftp credentials!"
+msgstr "¡Credenciales de ftp inválidas!"
+
+#: chimpxpress.php:771
+msgid "Invalid FTP host!"
+msgstr "¡Host de FTP inválido!"
+
+#: chimpxpress.php:777
+msgid "Invalid username / password!"
+msgstr "¡Nombre de usuario Inválido/contraseña!"
+
+#: chimpxpress.php:787
+msgid "Invalid FTP path!"
+msgstr "¡Host de FTP inválido!"
+
+#: chimpxpress.php:791
+msgid "FTP test successful!"
+msgstr "¡Prueba de FTP exitosa!"
+
+#: chimpxpress.php:830
+msgid "Retrieving templates and lists ..."
+msgstr "Recuperando plantillas y listas..."
+
+#: chimpxpress.php:907
+msgid "Mailchimp API Key"
+msgstr "Clave de API de Mailchimp"
+
+#: chimpxpress.php:923 chimpxpress.php:1073 chimpxpress.php:1099
+#: chimpxpress.php:1123 chimpxpress.php:1141 chimpxpress.php:1159
+#: chimpxpress.php:1193 chimpxpress.php:1247
+msgid "Click for Help!"
+msgstr "¡Haga clic por Ayuda!"
+
+#: chimpxpress.php:925 chimpxpress.php:1075 chimpxpress.php:1101
+#: chimpxpress.php:1125 chimpxpress.php:1143 chimpxpress.php:1161
+#: chimpxpress.php:1195 chimpxpress.php:1249
+msgid "[?]"
+msgstr "[?]"
+
+#: chimpxpress.php:929
+msgid "You need a Mailchimp account. If you do not have one"
+msgstr "Necesitas una cuenta de Mailchimp. Si no tienes una,"
+
+#: chimpxpress.php:931
+msgid "sign up for free"
+msgstr "regístrate gratis"
+
+#: chimpxpress.php:936
+msgid "Grab your API Key"
+msgstr "Obtener Clave de API"
+
+#: chimpxpress.php:1056
+msgid "Connected as"
+msgstr "Conectado como"
+
+#: chimpxpress.php:1065
+msgid "Current Mailchimp Status"
+msgstr "Estado Actual de Mailchimp"
+
+#: chimpxpress.php:1071
+msgid "Not connected"
+msgstr "No conectado"
+
+#: chimpxpress.php:1078
+msgid "The current status of your server's connection to Mailchimp"
+msgstr "El estado actual de la conexión de su servidor a Mailchimp"
+
+#: chimpxpress.php:1091
+msgid "Grant Access for"
+msgstr "Otorgar acceso para"
+
+#: chimpxpress.php:1095
+msgid "Administrators"
+msgstr "Administradores"
+
+#: chimpxpress.php:1096
+msgid "Editors"
+msgstr "Editores"
+
+#: chimpxpress.php:1097
+msgid "Authors"
+msgstr "Autores"
+
+#: chimpxpress.php:1104
+msgid ""
+"Select the role, which is supposed to have access to the plugin. All roles "
+"above the selected will have access as well."
+msgstr ""
+"Seleccione el rol, que se supone que tiene acceso al plugin. Todos los roles "
+"seleccionados  tendrán acceso también ."
+
+#: chimpxpress.php:1116
+msgid "FTP Host"
+msgstr "Host de FTP"
+
+#: chimpxpress.php:1128 chimpxpress.php:1146 chimpxpress.php:1164
+msgid ""
+"If chimpXpress can't write files directly to the server it will prompt you "
+"to enter your ftp credentials."
+msgstr ""
+"Si chimpXpress no puede escribir archivos directamente en el servidor se le "
+"pedirá que introduzca sus credenciales de ftp."
+
+#: chimpxpress.php:1134
+msgid "FTP Username"
+msgstr "Nombre de Usuario de FTP"
+
+#: chimpxpress.php:1152
+msgid "FTP Password"
+msgstr "Contraseña de FTP"
+
+#: chimpxpress.php:1170
+msgid "FTP Path"
+msgstr "Camino de FTP"
+
+#: chimpxpress.php:1178
+msgid "Find FTP Path"
+msgstr "Encontrar camino de FTP"
+
+#: chimpxpress.php:1198
+msgid ""
+"Enter the path from the ftp root directory to your WordPress installation. "
+"To find it you can login with your ftp client and navigate to the WordPress "
+"directory. This would be your ftp path."
+msgstr ""
+"Introduzca la ruta del directorio raíz de ftp a tu instalación de WordPress. "
+"Para encontrarlo, puede iniciar sesión con su cliente ftp y navegar hasta el "
+"directorio de WordPress. Este sería el camino de ftp."
+
+#: chimpxpress.php:1204
+msgid "Test FTP Connection"
+msgstr "Prueba de Conexión de FTP"
+
+#: chimpxpress.php:1208
+msgid "run test"
+msgstr "ejecutar prueba"
+
+#: chimpxpress.php:1240
+msgid "Google Analytics Profile ID"
+msgstr "ID del Perfil de Google Analytics"
+
+#: chimpxpress.php:1252
+msgid ""
+"Enter your Google Analytics Profile ID if you want to be able to track your "
+"landing pages in Analytics. The ID should look like: UA-1234567-8"
+msgstr ""
+"Escriba su ID del perfil de Google Analytics si quiere ser capaz de realizar "
+"un seguimiento de las páginas de destino en Google Analytics. El ID debe ser "
+"similar a: UA-1234567-8"
+
+#: chimpxpress.php:1260
+msgid "Update Settings"
+msgstr "Actualizar Ajustes"
+
+#: chimpxpress.php:1293 chimpxpress.php:1303
+msgid "Import from Mailchimp campaign"
+msgstr "Importar de campaña Mailchimp"
+
+#: chimpxpress.php:1318
+msgid "Choose a campaign to copy content into your post"
+msgstr "Elija una campaña para copiar el contenido en su mensaje"
+
+#: chimpxpress.php:1331
+msgid "load more campaigns"
+msgstr "cargar más campañas"
+
+#: chimpxpress.php:1331
+msgid "more"
+msgstr "más"
+
+#: class-MCAPI.php:1422
+msgid "error code"
+msgstr "código de error"
+
+#: compose.php:71 compose.php:775
+msgid "Campaign name and subject line must be supplied!"
+msgstr "¡El nombre de la campaña y la línea del asunto deben ser proveídos!"
+
+#: compose.php:75
+msgid ""
+"Are you sure you want to go back to step one? All entered content will be "
+"lost!"
+msgstr ""
+"¿Está seguro que desea volver al paso uno? ¡Todo el contenido entrado se "
+"perderá!"
+
+#: compose.php:103
+msgid ""
+"Campaign name and subject can not consist exclusively of special characters!"
+msgstr ""
+"¡El nombre de la campaña y el asunto pueden solo consistir en caracteres "
+"especiales!"
+
+#: compose.php:235 compose.php:244
+msgid "Are you sure you want to cancel? All entered content will be lost!"
+msgstr ""
+"¿Está seguro que desea cancelar? ¡Todo el contenido entrado se perderá!"
+
+#: compose.php:317 compose.php:417
+msgid "go to step"
+msgstr "ir a dormir"
+
+#: compose.php:318
+msgid "submit"
+msgstr "enviar"
+
+#: compose.php:413
+msgid "previous step"
+msgstr "paso anterior"
+
+#: compose.php:418
+msgid "settings"
+msgstr "ajustes"
+
+#: compose.php:423
+msgid "next step"
+msgstr "próximo paso"
+
+#: compose.php:505
+msgid ""
+"Templates and lists could not be retrieved! Please make sure you have set up "
+"templates and lists in Mailchimp."
+msgstr ""
+"¡Las plantillas y listas no pudieron ser recuperadas! Por favor, asegúrese "
+"de que haya configurado las plantillas y listas de Mailchimp."
+
+#: compose.php:507
+msgid "Click here to re-try."
+msgstr "Haga click aquí para reintentar."
+
+#: compose.php:523
+msgid "select an email template"
+msgstr "seleccionar una plantilla de email"
+
+#: compose.php:574
+msgid "preview"
+msgstr "vista previa"
+
+#: compose.php:577
+msgid "this template has"
+msgstr "esta plantilla tiene"
+
+#: compose.php:578
+msgid "editable areas"
+msgstr "áreas editables"
+
+#: compose.php:586
+msgid "select a subscriber list"
+msgstr "seleccionar una lista de suscriptor"
+
+#: compose.php:600
+msgid "this list has"
+msgstr "esta lista tiene"
+
+#: compose.php:601
+msgid "active subscribers"
+msgstr "suscriptores activos"
+
+#: compose.php:609
+msgid "campaign name"
+msgstr "nombre de campaña"
+
+#: compose.php:614
+msgid "subject line"
+msgstr "línea de asunto"
+
+#: compose.php:620 compose.php:759 import.php:221
+msgid "next &raquo;"
+msgstr "próximo &raquo;"
+
+#: compose.php:622 compose.php:761 import.php:226
+msgid "cancel"
+msgstr "cancelar"
+
+#: compose.php:644
+msgid "Note"
+msgstr "Nota"
+
+#: compose.php:645
+msgid "Templates and lists are cached."
+msgstr "Las plantillas y listas se almacenan en caché."
+
+#: compose.php:646
+msgid "Reload cache"
+msgstr "Recargar la caché"
+
+#: compose.php:646
+msgid "if an expected entry does not appear in the list."
+msgstr "si una entrada esperada no aparece en la lista."
+
+#: compose.php:668
+msgid "content section"
+msgstr "sección de contenido"
+
+#: compose.php:722
+msgid "Insert content from blog post"
+msgstr "Insertar contenido del post del blog"
+
+#: compose.php:724
+msgid "-- select post --"
+msgstr "-- seleccionar post --"
+
+#: compose.php:811 compose.php:838
+msgid "Campaign could not be created!"
+msgstr "Asunto de la Campaña!"
+
+#: compose.php:921
+msgid ""
+"High fives! Your campaign was created in Mailchimp and is ready to send."
+msgstr "¡Cinco estrellas! Su campaña está en Mailchimp lista para enviarse."
+
+#: compose.php:926
+msgid "What do I do now?"
+msgstr "¿Qué debo hacer ahora?"
+
+#: compose.php:931
+msgid "login to Mailchimp"
+msgstr "autenticarse en Mailchimp"
+
+#. translators: %s placeholder represents the campaign name
+#: compose.php:935
+msgid "open the campaign \"%s\" and click \"send now\""
+msgstr "abrir la campaña \"%s\" y hacer clic en \"enviar ahora\""
+
+#: compose.php:941
+msgid "open Mailchimp"
+msgstr "abrir Mailchimp"
+
+#: compose.php:943
+msgid "cancel (and remove draft from Mailchimp)"
+msgstr "cancelar (y remover borrador de Mailchimp)"
+
+#: compose.php:946
+msgid "Preview"
+msgstr "Vista Previa"
+
+#: editLP.php:111
+msgid "No landing page selected!"
+msgstr "¡No hay página de destino seleccionada!"
+
+#: editLP.php:132
+msgid "Save"
+msgstr "Guardar"
+
+#: editLP.php:133
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: editLP.php:138
+msgid "Are you sure you want to cancel this operation?"
+msgstr "¿Está seguro que desea cancelar esta operación?"
+
+#: editLP.php:158
+msgid ""
+"Landing page not found! Please make sure the directory \"archive\" exists in "
+"your wordpress root and is writable."
+msgstr ""
+"¡Página de destino no encontrada! Por favor, asegúrese de que existe el "
+"directorio \"archive\" en la raíz de su wordpress y se puede escribir."
+
+#: footer.php:23
+msgid "developed by"
+msgstr "desarrollado por"
+
+#: import.php:87
+msgid "Cannot continue as campaign does not seem to have a subject yet!"
+msgstr "¡No se puede continuar porque la campaña parece que aún no tiene tema!"
+
+#: import.php:170
+msgid "select campaign content to import"
+msgstr "seleccionar el contenido de la campaña para importar"
+
+#: import.php:189
+msgid "create a new ..."
+msgstr "crear un nuevo..."
+
+#: import.php:191
+msgid "blog post"
+msgstr "post de blog"
+
+#: import.php:194
+msgid "landing page"
+msgstr "página de destino"
+
+#: import.php:201
+msgid "import as ..."
+msgstr "importar como..."
+
+#: import.php:203
+msgid "text"
+msgstr "texto"
+
+#: import.php:206
+msgid "HTML"
+msgstr ""
+
+#: import.php:210
+msgid "page title"
+msgstr "título de la página"
+
+#: loggedInStatus.php:25
+msgid "connected as"
+msgstr "Conectado como"
+
+#: loggedInStatus.php:29
+msgid "connect your Mailchimp account"
+msgstr "¡Por favor conecte su cuenta de Mailchimp!"
+
+#: main.php:63
+msgid ""
+"Pull content from Mailchimp email campaigns into WordPress or compose an "
+"email campaign in WordPress, then pass it to Mailchimp."
+msgstr ""
+"Extraer contenido de las campañas de email de Mailchimp en WordPress o "
+"componer una campaña de email en WordPress, luego pasarlo a Mailchimp."
+
+#: main.php:71
+msgid "Import content from your Mailchimp Account"
+msgstr "Importar contenido desde su Cuenta de Mailchimp"
+
+#: main.php:73 main.php:83
+msgid "go"
+msgstr "ir"
+
+#: main.php:81
+msgid "Compose an email, then pass it to Mailchimp for delivery."
+msgstr "Componer un email, luego pasarlo a Mailchimp para su entrega."
+
+#~ msgid "API Key saved"
+#~ msgstr "Clave API salvada"
+
+#~ msgid "API Key expired"
+#~ msgstr "Clave API expirada"
+
+#~ msgid "<a href=\"%s\" target=\"_blank\">Grab your API Key</a>"
+#~ msgstr "<a href=\"%s\" target=\"_blank\">Obtenga su Clave de API</a>"
+
+#~ msgid ""
+#~ "Templates and lists are cached. <a href=\"javascript:void(0);\" "
+#~ "title=\"Reload cache\">Reload cache</a> if an expected entry does not "
+#~ "appear in the list."
+#~ msgstr ""
+#~ "Las plantillas y listas se almacenan en caché. <a href=\"javascript:"
+#~ "void(0);\" title=\"Reload cache\">Recargue la caché</a> si una entrada "
+#~ "esperada no aparece en la lista."
+
+#~ msgid "<a href=\"%s\">Log into your Mailchimp account</a>"
+#~ msgstr "<a href=\"%s\">Autentíquese en su cuenta Mailchimp</a>"
+
+#~ msgid ""
+#~ "<a href=\"options-general.php?page=chimpXpressConfig\">connect your "
+#~ "Mailchimp account</a>"
+#~ msgstr ""
+#~ "<a href=\"options-general.php?page=chimpXpressConfig\">conecte su cuenta "
+#~ "Mailchimp</a>"
+
+#~ msgid "Click save and you're done!"
+#~ msgstr "¡Haga clic en salvar y estará listo!"
+
+#~ msgid "Click the <strong>List Tools</strong> menu option at the top."
+#~ msgstr ""
+#~ "Haga clic en la opción del menú <strong>Listar Herramientas</strong> del "
+#~ "inicio."
+
+#~ msgid ""
+#~ "Click the <strong>View Lists</strong> button on the list you want to "
+#~ "configure."
+#~ msgstr ""
+#~ "Haga clic en el botón <strong>Ver Listas</strong> en la lista que quiera "
+#~ "configurar."
+
+#~ msgid "Click the <strong>WebHooks</strong> link."
+#~ msgstr "Haga clic en el enlace <strong>WebHooks</strong>."
+
+#~ msgid ""
+#~ "Configuration should be pretty straight forward. Copy/Paste the URL shown "
+#~ "above into the callback URL field, then select the events and event "
+#~ "sources (see the <a href='%s'>Mailchimp documentation for more "
+#~ "information on events and event sources) you'd like to have sent to you."
+#~ msgstr ""
+#~ "La configuración debería ser bastante directa. Copie/Pegue la URL "
+#~ "mostrada anteriormente en el campo de URL de callback, luego seleccione "
+#~ "los eventos y los orígenes de evento (vea la <a href='%s'>documentación "
+#~ "de Mailchimp para más información de eventos y orígenes de eventos) que "
+#~ "le gustaría que se le envíen."
+
+#~ msgid "Debugging E-Mail"
+#~ msgstr "E-Mail de Depuración"
+
+#~ msgid "Debugging Mode"
+#~ msgstr "Modo de Depuración"
+
+#~ msgid "Expire API Key"
+#~ msgstr "Expirar Clave de API"
+
+#~ msgid ""
+#~ "If this is on, debugging messages will be sent to the E-Mail addresses "
+#~ "set below."
+#~ msgstr ""
+#~ "Si esto está activado, los mensajes de depuración serán enviados a las "
+#~ "direcciones de E-Mail establecidas debajo."
+
+#~ msgid "Mailchimp API version"
+#~ msgstr "Versión de API de Mailchimp"
+
+#~ msgid "Mailchimp Password"
+#~ msgstr "Contraseña de Mailchimp"
+
+#~ msgid "Mailchimp Username"
+#~ msgstr "Nombre de Usuario de Mailchimp"
+
+#~ msgid "Mailchimp WebHook Listener Security Key"
+#~ msgstr "Clave de Seguridad del Mailchimp WebHook Listener"
+
+#~ msgid "Mailchimp WebHook Listener URL"
+#~ msgstr "URL del Mailchimp WebHook Listener"
+
+#~ msgid "Navigate to your <strong>Lists</strong>"
+#~ msgstr "Navegue a sus <strong>Listas</strong>"
+
+#~ msgid "Off"
+#~ msgstr "Apagado"
+
+#~ msgid "On"
+#~ msgstr "Encendido"
+
+#~ msgid "Partial - Only WebHook Messages"
+#~ msgstr "Parcial - Solo Mensajes de WebHook"
+
+#~ msgid "Regenerate Security Key"
+#~ msgstr "Regenerar Clave de Seguridad"
+
+#~ msgid ""
+#~ "This is a comma separated list of E-Mail addresses that will receive the "
+#~ "debug messages."
+#~ msgstr ""
+#~ "Esto es una lista separada por coma de las direcciones de E-Mail que "
+#~ "recibirán los mensajes de depuración."
+
+#~ msgid ""
+#~ "This is used to make the listener a little more secure. Usually the key "
+#~ "that was randomly generated for you is fine, but you can make this "
+#~ "whatever you want."
+#~ msgstr ""
+#~ "Esto es usado para hacer el listener un poco más seguro. Usualmente la "
+#~ "clave que fue generada aleatoriamente para usted está ok, pero usted "
+#~ "puede hacer esto cuando quiera."
+
+#~ msgid "To set this in your Mailchimp account:"
+#~ msgstr "Para establecer esto en su cuenta de Mailchimp:"
+
+#~ msgid ""
+#~ "Warning: Changing this will change your WebHook Listener URL below and "
+#~ "you will need to update it in your Mailchimp account!"
+#~ msgstr ""
+#~ "¡Advertencia: Cambiar esto modificará su URL del Listener de WebHook "
+#~ "debajo y usted necesitará actualizarlo en su cuenta de Mailchimp!"
+
+#~ msgid "Worpmailer"
+#~ msgstr "Worpmailer"
+
+#~ msgid "Worpmailer Config"
+#~ msgstr "Configuración de Worpmailer"
+
+#~ msgid ""
+#~ "connected as <a href=\"options-general.php?page=chimpXpressConfig\">%s</a>"
+#~ msgstr ""
+#~ "conectado como <a href=\"options-general.php?page=chimpXpressConfig\">%s</"
+#~ "a>"
+
+#~ msgid "Please enter a page title!"
+#~ msgstr "¡Por favor entre un título de página!"
+
+#~ msgid "Your email shouldn't be much more than 600 pixels wide."
+#~ msgstr "Su email no debería ser mayor de 600 píxeles de ancho."
